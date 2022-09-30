@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.0.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>54</x>
-      <y>360</y>
-      <w>189</w>
-      <h>108</h>
+      <x>32</x>
+      <y>304</y>
+      <w>168</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>Etudiant
 --
@@ -23,10 +23,10 @@ Adresse
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>396</x>
-      <y>252</y>
-      <w>189</w>
-      <h>198</h>
+      <x>336</x>
+      <y>208</y>
+      <w>168</w>
+      <h>176</h>
     </coordinates>
     <panel_attributes>Unité d'enseignement
 --
@@ -37,10 +37,10 @@ Titre</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>396</y>
-      <w>180</w>
-      <h>45</h>
+      <x>192</x>
+      <y>336</y>
+      <w>160</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
@@ -51,10 +51,10 @@ Etudie &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>54</x>
-      <y>243</y>
-      <w>189</w>
-      <h>90</h>
+      <x>32</x>
+      <y>200</y>
+      <w>168</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Enseignant
 --
@@ -67,10 +67,10 @@ Numéro tél</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>297</y>
-      <w>180</w>
-      <h>45</h>
+      <x>192</x>
+      <y>248</y>
+      <w>160</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..1
@@ -81,10 +81,10 @@ Est resp. de &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>234</x>
-      <y>99</y>
-      <w>189</w>
-      <h>117</h>
+      <x>192</x>
+      <y>72</y>
+      <w>168</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>Créneau renseignement
 --
@@ -95,10 +95,10 @@ _Heure_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>126</y>
-      <w>189</w>
-      <h>135</h>
+      <x>40</x>
+      <y>96</y>
+      <w>168</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
@@ -109,10 +109,10 @@ Se rend disponible &gt;</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>405</x>
-      <y>459</y>
-      <w>162</w>
-      <h>63</h>
+      <x>344</x>
+      <y>392</y>
+      <w>144</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Note..
 bg=yellow
@@ -123,10 +123,10 @@ Possibles</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>54</x>
-      <y>711</y>
-      <w>189</w>
-      <h>108</h>
+      <x>32</x>
+      <y>616</y>
+      <w>168</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>Etudiant
 --
@@ -142,10 +142,10 @@ Adresse
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>396</x>
-      <y>603</y>
-      <w>189</w>
-      <h>198</h>
+      <x>336</x>
+      <y>520</y>
+      <w>168</w>
+      <h>176</h>
     </coordinates>
     <panel_attributes>Unité d'enseignement
 --
@@ -156,10 +156,10 @@ Titre</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>747</y>
-      <w>180</w>
-      <h>45</h>
+      <x>192</x>
+      <y>648</y>
+      <w>160</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
@@ -170,10 +170,10 @@ Etudie &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>54</x>
-      <y>594</y>
-      <w>189</w>
-      <h>90</h>
+      <x>32</x>
+      <y>512</y>
+      <w>168</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Enseignant
 --
@@ -186,10 +186,10 @@ Numéro tél</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>648</y>
-      <w>180</w>
-      <h>45</h>
+      <x>192</x>
+      <y>560</y>
+      <w>160</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..1
@@ -200,10 +200,10 @@ Est resp. de &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>684</x>
-      <y>621</y>
-      <w>189</w>
-      <h>72</h>
+      <x>592</x>
+      <y>536</y>
+      <w>168</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>Créneau renseignement
 --
@@ -214,10 +214,10 @@ _Heure_</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>414</x>
-      <y>810</y>
-      <w>162</w>
-      <h>63</h>
+      <x>352</x>
+      <y>704</y>
+      <w>144</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Note..
 bg=yellow
@@ -228,39 +228,184 @@ Possibles</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>27</x>
-      <y>504</y>
-      <w>162</w>
-      <h>63</h>
+      <x>8</x>
+      <y>432</y>
+      <w>144</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Note..
-Exercice 2</panel_attributes>
+Exercice 2 et 3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>18</x>
-      <y>18</y>
-      <w>162</w>
-      <h>63</h>
+      <x>8</x>
+      <y>816</y>
+      <w>144</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Note..
-Exercice 1</panel_attributes>
+Exercice 4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
-      <y>648</y>
-      <w>126</w>
-      <h>45</h>
+      <x>496</x>
+      <y>560</y>
+      <w>112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=1..n
+a &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Note..
+Exercice 2 et 3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>904</y>
+      <w>168</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Enseignant
+--
+_Initiales_
+Nom
+Numéro bureau
+Numéro tél</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>328</x>
+      <y>1000</y>
+      <w>168</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Unité d'enseignement
+--
+_Code_
+Titre</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>592</x>
+      <y>904</y>
+      <w>168</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>Créneau renseignement
+--
+_Date_
+_Heure_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>1032</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Etudiant
+--
+_ID_
+Numéro ID National
+Nom
+Prénoms [1..n]
+Adresse
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>184</x>
+      <y>1064</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..8
+Etudie &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>336</x>
+      <y>1072</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=yellow
+15 unités d'enseignement
+Possibles</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>184</x>
+      <y>960</y>
+      <w>160</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=0..n
+Est resp. de &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0;90.0;90.0;180.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>184</x>
+      <y>928</y>
+      <w>424</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..n
 m2=1..1
-a &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+Se rend disponible &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>488</x>
+      <y>968</y>
+      <w>120</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=0..n
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;110.0;70.0;110.0;70.0;10.0;130.0;10.0</additional_attributes>
   </element>
 </diagram>
