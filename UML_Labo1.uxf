@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
+      <x>112</x>
       <y>304</y>
       <w>168</w>
       <h>96</h>
@@ -23,7 +23,7 @@ Adresse
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>384</x>
+      <x>416</x>
       <y>208</y>
       <w>168</w>
       <h>176</h>
@@ -37,7 +37,7 @@ Titre</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
+      <x>272</x>
       <y>336</y>
       <w>160</w>
       <h>40</h>
@@ -51,7 +51,7 @@ Etudie &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
+      <x>112</x>
       <y>200</y>
       <w>168</w>
       <h>80</h>
@@ -67,7 +67,7 @@ Numéro tél</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
+      <x>272</x>
       <y>248</y>
       <w>160</w>
       <h>40</h>
@@ -81,7 +81,7 @@ Est resp. de &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
+      <x>272</x>
       <y>72</y>
       <w>168</w>
       <h>104</h>
@@ -95,7 +95,7 @@ _Heure_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
+      <x>120</x>
       <y>96</y>
       <w>168</w>
       <h>120</h>
@@ -109,7 +109,7 @@ Se rend disponible &gt;</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>392</x>
+      <x>424</x>
       <y>320</y>
       <w>144</w>
       <h>56</h>
@@ -123,7 +123,7 @@ Possibles</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
+      <x>112</x>
       <y>616</y>
       <w>168</w>
       <h>96</h>
@@ -142,7 +142,7 @@ Adresse
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>384</x>
+      <x>416</x>
       <y>520</y>
       <w>168</w>
       <h>176</h>
@@ -156,7 +156,7 @@ Titre</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
+      <x>272</x>
       <y>648</y>
       <w>160</w>
       <h>40</h>
@@ -170,7 +170,7 @@ Etudie &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
+      <x>112</x>
       <y>512</y>
       <w>168</w>
       <h>80</h>
@@ -186,7 +186,7 @@ Numéro tél</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
+      <x>272</x>
       <y>560</y>
       <w>160</w>
       <h>40</h>
@@ -200,7 +200,7 @@ Est resp. de &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>640</x>
+      <x>672</x>
       <y>536</y>
       <w>136</w>
       <h>64</h>
@@ -214,7 +214,7 @@ _Heure_</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>400</x>
+      <x>432</x>
       <y>632</y>
       <w>144</w>
       <h>56</h>
@@ -228,7 +228,7 @@ Possibles</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>56</x>
+      <x>88</x>
       <y>432</y>
       <w>144</w>
       <h>56</h>
@@ -240,19 +240,20 @@ Exercice 2 et 3</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>56</x>
+      <x>88</x>
       <y>800</y>
       <w>144</w>
       <h>56</h>
     </coordinates>
     <panel_attributes>Note..
-Exercice 4 et 5</panel_attributes>
+Exercice 4
+Possibilité 1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>544</x>
+      <x>576</x>
       <y>560</y>
       <w>112</w>
       <h>40</h>
@@ -266,7 +267,7 @@ a &gt;</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>48</x>
+      <x>80</x>
       <y>0</y>
       <w>144</w>
       <h>56</h>
@@ -278,7 +279,7 @@ Exercice 1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>72</x>
+      <x>104</x>
       <y>880</y>
       <w>168</w>
       <h>136</h>
@@ -294,7 +295,7 @@ Numéro tél</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
+      <x>424</x>
       <y>952</y>
       <w>168</w>
       <h>168</h>
@@ -308,8 +309,8 @@ Titre</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>656</x>
-      <y>872</y>
+      <x>816</x>
+      <y>864</y>
       <w>128</w>
       <h>192</h>
     </coordinates>
@@ -322,7 +323,7 @@ _Heure_</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>72</x>
+      <x>104</x>
       <y>1032</y>
       <w>168</w>
       <h>96</h>
@@ -341,22 +342,22 @@ Adresse
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>232</x>
+      <x>264</x>
       <y>1064</y>
-      <w>184</w>
+      <w>176</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..*
 m2=0..8
 Etudie &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>408</x>
-      <y>1056</y>
+      <x>440</x>
+      <y>1048</y>
       <w>144</w>
       <h>56</h>
     </coordinates>
@@ -369,43 +370,331 @@ Possibles</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>232</x>
-      <y>976</y>
-      <w>184</w>
+      <x>584</x>
+      <y>936</y>
+      <w>128</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*</panel_attributes>
+    <additional_attributes>10.0;130.0;140.0;130.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>680</x>
+      <y>912</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>type=decision
+correspond</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>920</y>
+      <w>432</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*</panel_attributes>
+    <additional_attributes>10.0;10.0;520.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>704</x>
+      <y>920</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>64</x>
+      <y>1168</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Note..
+Exercice 4
+Possibilité 2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>1248</y>
+      <w>168</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Enseignant
+--
+_Initiales_
+Nom
+Numéro bureau
+Numéro tél</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>1320</y>
+      <w>168</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>Unité d'enseignement
+--
+_Code_
+Titre</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>456</x>
+      <y>1224</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Donne tutorat
+--
+_Date_
+_Heure_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>1400</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Etudiant
+--
+_ID_
+Numéro ID National
+Nom
+Prénoms [1..n]
+Adresse
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>1432</y>
+      <w>376</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..8
+Etudie &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>640</x>
+      <y>1424</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=yellow
+15 unités d'enseignement
+Possibles</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>1344</y>
+      <w>376</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
 m2=0..*
-Est resp. de &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+Donne tutorat &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;450.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>1024</y>
-      <w>112</w>
+      <x>512</x>
+      <y>1288</y>
+      <w>24</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>16</x>
+      <y>1576</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Note..
+Exercice 5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>32</x>
+      <y>1656</y>
+      <w>168</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Enseignant
+--
+_Initiales_
+Nom
+Numéro bureau
+Numéro tél</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>352</x>
+      <y>1728</y>
+      <w>168</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>Unité d'enseignement
+--
+_Code_
+Titre</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>744</x>
+      <y>1640</y>
+      <w>128</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>Créneau renseignement
+--
+_Date_
+_Heure_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>32</x>
+      <y>1808</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Etudiant
+--
+_ID_
+Numéro ID National
+Nom
+Prénoms [1..n]
+Adresse
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>192</x>
+      <y>1840</y>
+      <w>176</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=1..*
+m1=0..*
+m2=0..8
+Etudie &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>368</x>
+      <y>1824</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=yellow
+15 unités d'enseignement
+Possibles</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>1712</y>
+      <w>128</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*</panel_attributes>
+    <additional_attributes>10.0;130.0;140.0;130.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>608</x>
+      <y>1688</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>type=decision
+correspond</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>192</x>
+      <y>1696</y>
+      <w>432</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*</panel_attributes>
+    <additional_attributes>10.0;10.0;520.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>632</x>
+      <y>1696</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-
 m2=1..*
-a &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>232</x>
-      <y>904</y>
-      <w>440</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=0..n
-m2=1..1
-se rend disponible pour &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+fg=red</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
   </element>
 </diagram>
