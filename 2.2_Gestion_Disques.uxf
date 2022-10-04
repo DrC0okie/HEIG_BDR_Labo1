@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>30</x>
+      <x>20</x>
       <y>160</y>
       <w>110</w>
       <h>90</h>
@@ -20,7 +20,7 @@ Producteur
   <element>
     <id>Text</id>
     <coordinates>
-      <x>10</x>
+      <x>0</x>
       <y>10</y>
       <w>230</w>
       <h>40</h>
@@ -32,23 +32,24 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>230</x>
+      <x>220</x>
       <y>120</y>
       <w>120</w>
       <h>220</h>
     </coordinates>
     <panel_attributes>Piste
 --
+Date
 Durée</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
+      <x>650</x>
       <y>280</y>
       <w>120</w>
-      <h>140</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Oeuvre
 --
@@ -63,22 +64,22 @@ Genre
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
+      <x>330</x>
       <y>300</y>
-      <w>210</w>
+      <w>340</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..1
 m2=0..*
 Contient &gt;</panel_attributes>
-    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>440</y>
+      <x>650</x>
+      <y>420</y>
       <w>120</w>
       <h>100</h>
     </coordinates>
@@ -92,28 +93,27 @@ Artiste_Original
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>410</y>
+      <x>700</x>
+      <y>380</y>
       <w>30</w>
-      <h>50</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>170</y>
+      <x>650</x>
+      <y>180</y>
       <w>120</w>
-      <h>100</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Interprète
 --
 _Id_
 Nom
 Prénom
-instrument utilisé
 
 </panel_attributes>
     <additional_attributes/>
@@ -121,37 +121,37 @@ instrument utilisé
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
+      <x>330</x>
       <y>230</y>
-      <w>210</w>
+      <w>340</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
 m2=0..*
-Est intermprété par &gt;</panel_attributes>
-    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+Interprétée par &gt;</panel_attributes>
+    <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
+      <x>100</x>
       <y>200</y>
-      <w>130</w>
+      <w>140</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>lt=[Date]&lt;-
+    <panel_attributes>lt=[noPiste]&lt;-
 m2=0..*
 </panel_attributes>
-    <additional_attributes>20.0;20.0;110.0;20.0</additional_attributes>
+    <additional_attributes>30.0;20.0;120.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>750</x>
+      <x>520</x>
       <y>120</y>
       <w>120</w>
-      <h>150</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Instrument
 --
@@ -162,29 +162,12 @@ m2=0..*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>210</y>
-      <w>130</w>
-      <h>50</h>
+      <x>570</x>
+      <y>180</y>
+      <w>30</w>
+      <h>90</h>
     </coordinates>
-    <panel_attributes>lt=-
-m1=0..*
-m2=1..1
-Utilise &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>340</x>
-      <y>140</y>
-      <w>430</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1..1
-m2=0..*
-Est jouée avec &gt;</panel_attributes>
-    <additional_attributes>410.0;20.0;10.0;20.0</additional_attributes>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
