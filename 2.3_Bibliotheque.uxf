@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>210</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Livre
+--
+_ISBN_
+Titre
+Auteur
+Genre
+Éditeur</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>210</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Exemplaire
+--
+_Numéro_
+Endommagé
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1150</x>
+      <y>180</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Adhérent
+--
+_uID_
+Nom
+Prénom
+Adresse
+    numéro
+    rue
+    ville
+    NPA
+Téléphone
+    
+ 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>260</y>
+      <w>270</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+&lt; est un exemplaire de</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>240</y>
+      <w>520</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..5
+m2=1
+&lt; reserve</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>340</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Emprunt
+--
+Date</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>290</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.
+m1=
+m2=</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>280</y>
+      <w>520</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+&lt; empreinte</panel_attributes>
+    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+</diagram>
