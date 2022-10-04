@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>0</x>
+      <y>20</y>
+      <w>230</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Exercice 2.4: Agence de location
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>220</y>
+      <w>140</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Locataire
+--
+Nom
+Prénom
+DateNaissance
+NoTel
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>90</y>
+      <w>140</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Logement
+--
+Adresse
+_Numéro_
+Superficie
+LoyerBase
+DateConstr
+nbPièces
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>300</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>360</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>TypeLogement
+--
+SommeForfaitaire
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>90</y>
+      <w>140</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Commune
+--
+_NPA_
+Nom
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>130</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=1..1
+Se trouve dans &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>670</x>
+      <y>220</y>
+      <w>120</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Loc secondaire
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>260</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=[Nombre]&lt;-
+m2=0..*
+</panel_attributes>
+    <additional_attributes>30.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>260</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=1..1
+&lt; Occupe</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+</diagram>
