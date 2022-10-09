@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.0.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>210</y>
-      <w>210</w>
-      <h>130</h>
+      <x>9</x>
+      <y>306</y>
+      <w>189</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>Livre
 --
@@ -21,25 +21,23 @@ Genre
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>210</y>
-      <w>210</w>
-      <h>130</h>
+      <x>441</x>
+      <y>306</y>
+      <w>189</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>Exemplaire
 --
-_Numéro_
-Endommagé
-</panel_attributes>
+Endommagé</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1150</x>
-      <y>180</y>
-      <w>210</w>
-      <h>190</h>
+      <x>1053</x>
+      <y>279</y>
+      <w>189</w>
+      <h>243</h>
     </coordinates>
     <panel_attributes>Adhérent
 --
@@ -60,69 +58,112 @@ Téléphone
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>200</x>
-      <y>260</y>
-      <w>270</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1..*
-&lt; est un exemplaire de</panel_attributes>
-    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>650</x>
-      <y>240</y>
-      <w>520</w>
-      <h>50</h>
+      <x>621</x>
+      <y>333</y>
+      <w>450</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..5
 m2=1
 &lt; reserve</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>280</y>
-      <w>520</w>
-      <h>50</h>
+      <x>621</x>
+      <y>369</y>
+      <w>450</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=0..*
+m1=0..3
 m2=1
 &lt; empreinte</panel_attributes>
-    <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>900</x>
-      <y>290</y>
-      <w>30</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=.
-m1=
-m2=</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+    <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>810</x>
-      <y>330</y>
-      <w>210</w>
-      <h>130</h>
+      <x>639</x>
+      <y>450</y>
+      <w>189</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>Emprunt
 --
-Date</panel_attributes>
+Date
+</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>351</y>
+      <w>270</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=[num_exempl]-
+m2=1..*
+m1=        1
+           est_un_exemplaire_de</panel_attributes>
+    <additional_attributes>50.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>378</y>
+      <w>27</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=.
+m1=
+m2=</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>819</x>
+      <y>477</y>
+      <w>252</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=1
+&lt; retourne</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>846</x>
+      <y>576</y>
+      <w>189</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Emprunt_historique
+--
+Date
+Date de retour
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>486</y>
+      <w>27</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=.
+m1=
+m2=</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
 </diagram>
