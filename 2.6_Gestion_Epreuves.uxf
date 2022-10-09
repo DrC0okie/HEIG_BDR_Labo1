@@ -4,10 +4,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>45</x>
-      <y>99</y>
+      <x>63</x>
+      <y>117</y>
       <w>126</w>
-      <h>144</h>
+      <h>126</h>
     </coordinates>
     <panel_attributes>Enseignant
 --
@@ -20,7 +20,7 @@ numéro tél</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>315</x>
+      <x>333</x>
       <y>252</y>
       <w>99</w>
       <h>126</h>
@@ -34,7 +34,7 @@ titre</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>558</x>
+      <x>576</x>
       <y>180</y>
       <w>90</w>
       <h>72</h>
@@ -48,17 +48,17 @@ _heure_</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>45</x>
+      <x>63</x>
       <y>261</y>
       <w>126</w>
-      <h>252</h>
+      <h>216</h>
     </coordinates>
     <panel_attributes>Etudiant
 --
 _ID_
 numéro ID National
 nom
-prénoms [1..n]
+prénoms[1..*]
 adresse
 moyenne
 
@@ -68,7 +68,7 @@ moyenne
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
+      <x>180</x>
       <y>297</y>
       <w>171</w>
       <h>45</h>
@@ -82,7 +82,7 @@ Etudie &gt;</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>324</x>
+      <x>342</x>
       <y>324</y>
       <w>81</w>
       <h>45</h>
@@ -94,19 +94,19 @@ Possibles</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
+      <x>423</x>
       <y>234</y>
       <w>72</w>
-      <h>81</h>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=*</panel_attributes>
-    <additional_attributes>10.0;60.0;60.0;60.0;60.0;10.0</additional_attributes>
+    <additional_attributes>10.0;80.0;60.0;80.0;60.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>414</x>
+      <x>432</x>
       <y>207</y>
       <w>90</w>
       <h>36</h>
@@ -118,7 +118,7 @@ correspond</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
+      <x>180</x>
       <y>216</y>
       <w>270</w>
       <h>36</h>
@@ -130,7 +130,7 @@ m1=1..*</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>495</x>
+      <x>513</x>
       <y>216</y>
       <w>81</w>
       <h>36</h>
@@ -142,7 +142,7 @@ m2=1..*</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>9</x>
+      <x>27</x>
       <y>18</y>
       <w>225</w>
       <h>36</h>
@@ -154,10 +154,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>738</x>
+      <x>756</x>
       <y>288</y>
       <w>99</w>
-      <h>297</h>
+      <h>189</h>
     </coordinates>
     <panel_attributes>Epreuve
 --
@@ -172,10 +172,10 @@ type
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>252</x>
-      <y>432</y>
+      <x>279</x>
+      <y>405</y>
       <w>90</w>
-      <h>81</h>
+      <h>72</h>
     </coordinates>
     <panel_attributes>BulletinNotes
 --
@@ -186,8 +186,8 @@ moyenne</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
-      <y>387</y>
+      <x>180</x>
+      <y>378</y>
       <w>594</w>
       <h>45</h>
     </coordinates>
@@ -200,20 +200,20 @@ Effectue &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>468</y>
-      <w>126</w>
+      <x>162</x>
+      <y>423</y>
+      <w>135</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>lt=[moyenne]&lt;-
 m2=1
 </panel_attributes>
-    <additional_attributes>30.0;20.0;120.0;20.0</additional_attributes>
+    <additional_attributes>30.0;20.0;130.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
+      <x>423</x>
       <y>342</y>
       <w>351</w>
       <h>45</h>
@@ -227,8 +227,8 @@ m2=3
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>495</x>
-      <y>441</y>
+      <x>513</x>
+      <y>432</y>
       <w>261</w>
       <h>45</h>
     </coordinates>
@@ -241,10 +241,10 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>414</x>
-      <y>432</y>
+      <x>432</x>
+      <y>405</y>
       <w>90</w>
-      <h>81</h>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Note
 --
@@ -255,19 +255,19 @@ score
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
-      <y>477</y>
-      <w>108</w>
+      <x>351</x>
+      <y>450</y>
+      <w>99</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=[score]&lt;-
 m2=3</panel_attributes>
-    <additional_attributes>20.0;10.0;100.0;10.0</additional_attributes>
+    <additional_attributes>20.0;10.0;90.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>738</x>
+      <x>756</x>
       <y>81</y>
       <w>99</w>
       <h>72</h>
@@ -282,7 +282,7 @@ nbrPlaces
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>405</x>
+      <x>423</x>
       <y>63</y>
       <w>90</w>
       <h>54</h>
@@ -295,7 +295,7 @@ temps</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
+      <x>180</x>
       <y>144</y>
       <w>594</w>
       <h>207</h>
@@ -309,7 +309,7 @@ surveille &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>774</x>
+      <x>792</x>
       <y>144</y>
       <w>135</w>
       <h>162</h>
@@ -323,7 +323,7 @@ se déroule dans ^</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
+      <x>459</x>
       <y>108</y>
       <w>27</w>
       <h>72</h>
