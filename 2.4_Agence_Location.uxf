@@ -4,7 +4,7 @@
   <element>
     <id>Text</id>
     <coordinates>
-      <x>0</x>
+      <x>10</x>
       <y>20</y>
       <w>230</w>
       <h>40</h>
@@ -16,35 +16,36 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
+      <x>390</x>
       <y>220</y>
       <w>140</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>Locataire
 --
-Nom
-Prénom
-DateNaissance
-NoTel
+nom
+prénom
+dateNaissance
+noTel
+nbrOccupants
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>90</y>
       <w>140</w>
       <h>220</h>
     </coordinates>
     <panel_attributes>Logement
 --
-Adresse
-_Numéro_
-Superficie
-LoyerBase
-DateConstr
+adresse
+_numéro_
+superficie
+loyerBase
+dateConstr
 nbPièces
 
 </panel_attributes>
@@ -53,7 +54,7 @@ nbPièces
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
+      <x>110</x>
       <y>300</y>
       <w>30</w>
       <h>80</h>
@@ -64,14 +65,14 @@ nbPièces
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>360</y>
       <w>140</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>TypeLogement
 --
-SommeForfaitaire
+sommeForfaitaire
 
 </panel_attributes>
     <additional_attributes/>
@@ -79,7 +80,7 @@ SommeForfaitaire
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
+      <x>390</x>
       <y>90</y>
       <w>140</w>
       <h>110</h>
@@ -87,14 +88,14 @@ SommeForfaitaire
     <panel_attributes>Commune
 --
 _NPA_
-Nom
+nom
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
+      <x>180</x>
       <y>130</y>
       <w>230</w>
       <h>50</h>
@@ -106,43 +107,42 @@ Se trouve dans &gt;</panel_attributes>
     <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>670</x>
-      <y>220</y>
-      <w>120</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>Loc secondaire
---
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>260</y>
-      <w>200</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=[Nombre]&lt;-
-m2=0..*
-</panel_attributes>
-    <additional_attributes>30.0;20.0;180.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>170</x>
+      <x>180</x>
       <y>260</y>
       <w>230</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..*
-m2=1..1
+m2=0..*
 &lt; Occupe</panel_attributes>
     <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>330</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Occupation
+--
+dateDebut
+dateFin</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>270</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
 </diagram>
