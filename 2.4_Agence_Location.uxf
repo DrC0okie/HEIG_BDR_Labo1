@@ -23,8 +23,8 @@ style=wordwrap</panel_attributes>
     </coordinates>
     <panel_attributes>Locataire
 --
-nom
-prénom
+_nom_
+_prénom_
 dateNaissance
 noTel
 nbrOccupants
