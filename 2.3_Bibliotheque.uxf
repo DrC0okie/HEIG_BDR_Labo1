@@ -86,32 +86,6 @@ m2=1
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>810</x>
-      <y>340</y>
-      <w>210</w>
-      <h>130</h>
-    </coordinates>
-    <panel_attributes>Emprunt
---
-Date</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>900</x>
-      <y>290</y>
-      <w>30</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=.
-m1=
-m2=</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
       <x>650</x>
@@ -121,8 +95,34 @@ m2=</panel_attributes>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..*
-m2=0..*
+m2=1
 &lt; empreinte</panel_attributes>
     <additional_attributes>10.0;20.0;500.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>290</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.
+m1=
+m2=</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>330</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Emprunt
+--
+Date</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
