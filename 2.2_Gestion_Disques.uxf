@@ -46,10 +46,10 @@ Durée</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
+      <x>540</x>
       <y>210</y>
       <w>120</w>
-      <h>110</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>Oeuvre
 --
@@ -66,22 +66,22 @@ Genre
     <coordinates>
       <x>330</x>
       <y>230</y>
-      <w>340</w>
+      <w>230</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..1
 m2=0..*
 Contient &gt;</panel_attributes>
-    <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
-      <y>350</y>
+      <x>540</x>
+      <y>340</y>
       <w>120</w>
-      <h>100</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Reprise
 --
@@ -93,8 +93,8 @@ Artiste_Original
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>310</y>
+      <x>590</x>
+      <y>300</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -104,7 +104,7 @@ Artiste_Original
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
+      <x>540</x>
       <y>110</y>
       <w>120</w>
       <h>90</h>
@@ -123,14 +123,14 @@ Prénom
     <coordinates>
       <x>330</x>
       <y>160</y>
-      <w>340</w>
+      <w>230</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
 m2=0..*
 Interprétée par &gt;</panel_attributes>
-    <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -148,7 +148,7 @@ m2=0..*
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>520</x>
+      <x>370</x>
       <y>50</y>
       <w>120</w>
       <h>70</h>
@@ -162,7 +162,7 @@ m2=0..*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
+      <x>420</x>
       <y>110</y>
       <w>30</w>
       <h>90</h>
