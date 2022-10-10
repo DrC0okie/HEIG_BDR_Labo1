@@ -394,13 +394,14 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>833</x>
+      <x>840</x>
       <y>301</y>
       <w>133</w>
-      <h>91</h>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Contrainte :
 Un assistant peut travailler
+pour plusieurs chercheurs
 si, et seulement si il n'est
 pas assistant-étudiant,
 si c'est le cas, il ne peut 
